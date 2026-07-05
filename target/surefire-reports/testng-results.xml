@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-28T15:13:55 IST" name="Suite" finished-at="2026-06-28T15:14:31 IST" duration-ms="35856">
+    <groups>
+      <group name="Priority1">
+        <method signature="Saucedemo.setup()[pri:0, instance:Tecting_demoPac.Saucedemo@20deea7f]" name="setup" class="Tecting_demoPac.Saucedemo"/>
+      </group> <!-- Priority1 -->
+      <group name="Regression">
+        <method signature="googledemo3.googlesearch()[pri:0, instance:Tecting_demoPac.googledemo3@20ce78ec]" name="googlesearch" class="Tecting_demoPac.googledemo3"/>
+      </group> <!-- Regression -->
+      <group name="smoke">
+        <method signature="googledemo1.googlesearch()[pri:0, instance:Tecting_demoPac.googledemo1@1dde4cb2]" name="googlesearch" class="Tecting_demoPac.googledemo1"/>
+        <method signature="googledemo2.googlesearch()[pri:0, instance:Tecting_demoPac.googledemo2@7714e963]" name="googlesearch" class="Tecting_demoPac.googledemo2"/>
+        <method signature="googledemo3.googlesearch()[pri:0, instance:Tecting_demoPac.googledemo3@20ce78ec]" name="googlesearch" class="Tecting_demoPac.googledemo3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-06-28T15:13:55 IST" name="Test" finished-at="2026-06-28T15:14:31 IST" duration-ms="35856">
+      <class name="Tecting_demoPac.DemoE2E">
+        <test-method signature="sampleTest()[pri:0, instance:Tecting_demoPac.DemoE2E@16ec5519]" started-at="2026-06-28T15:13:55 IST" name="sampleTest" finished-at="2026-06-28T15:13:55 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method signature="sampleTest1()[pri:0, instance:Tecting_demoPac.DemoE2E@16ec5519]" started-at="2026-06-28T15:13:55 IST" name="sampleTest1" finished-at="2026-06-28T15:13:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest1 -->
+      </class> <!-- Tecting_demoPac.DemoE2E -->
+      <class name="Tecting_demoPac.googledemo2">
+        <test-method signature="googlesearch()[pri:0, instance:Tecting_demoPac.googledemo2@7714e963]" started-at="2026-06-28T15:14:15 IST" name="googlesearch" finished-at="2026-06-28T15:14:22 IST" duration-ms="7116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlesearch -->
+      </class> <!-- Tecting_demoPac.googledemo2 -->
+      <class name="Tecting_demoPac.googledemo3">
+        <test-method signature="googlesearch()[pri:0, instance:Tecting_demoPac.googledemo3@20ce78ec]" started-at="2026-06-28T15:14:22 IST" name="googlesearch" finished-at="2026-06-28T15:14:31 IST" duration-ms="8229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlesearch -->
+      </class> <!-- Tecting_demoPac.googledemo3 -->
+      <class name="Tecting_demoPac.googledemo1">
+        <test-method signature="googlesearch()[pri:0, instance:Tecting_demoPac.googledemo1@1dde4cb2]" started-at="2026-06-28T15:14:07 IST" name="googlesearch" finished-at="2026-06-28T15:14:15 IST" duration-ms="8086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlesearch -->
+      </class> <!-- Tecting_demoPac.googledemo1 -->
+      <class name="Tecting_demoPac.googledemo">
+        <test-method signature="googlesearch()[pri:0, instance:Tecting_demoPac.googledemo@3835c46]" started-at="2026-06-28T15:13:59 IST" name="googlesearch" finished-at="2026-06-28T15:14:07 IST" duration-ms="7939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlesearch -->
+      </class> <!-- Tecting_demoPac.googledemo -->
+      <class name="Tecting_demoPac.Saucedemo">
+        <test-method signature="setup()[pri:0, instance:Tecting_demoPac.Saucedemo@20deea7f]" started-at="2026-06-28T15:13:55 IST" name="setup" finished-at="2026-06-28T15:13:59 IST" duration-ms="4394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- Tecting_demoPac.Saucedemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
