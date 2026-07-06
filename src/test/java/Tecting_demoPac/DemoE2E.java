@@ -16,6 +16,7 @@ public class DemoE2E {
 	public void sampleTest1()
 	{
    System.out.print("Testng tags are working");
+		System.out.print("changed");
    }
 
 }
